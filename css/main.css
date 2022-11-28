@@ -605,6 +605,10 @@ footer ul {
                 display: block;
         }
 
+        main nav li:nth-child(2) {
+                margin: 0;
+        }
+
 
 }
 
