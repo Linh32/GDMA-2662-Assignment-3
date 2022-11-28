@@ -8,14 +8,18 @@
 2.0 - Tools: globally used mixins and functions. Use for preprocessor only.
 3.0 - Generic: reset and/or normalize styles, box-sizing definition, etc.
         - Universal
-4.0 - Elements: styling for bare/generic HTML elements 
+4.0 - Elements: styling for bare/generic HTML elements
+        - Typography
         
 5.0 - Objects: class-based selectors which define undecorated design patterns, building blocks
         - Framework
 6.0 - Components: specific designed components
+        - Header
+        - main
+        - footer
        
 7.0 - Utilities: utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
-        - screen reader
+
         - alignment	    
 --------------------------------------------------------------*/
 
@@ -104,7 +108,7 @@ header span {
 
 h2 {
         font-size: 0.9rem;
-        margin: 1em 0 0;
+        margin: 2em 0 0;
 }
 
 ul { 
@@ -124,10 +128,16 @@ a {
 
         h1,
         header span {
-        font-size: 4rem;
-        font-weight: 700;
-        margin: 3em 0 3.5em;
-}
+                font-size: 4rem;
+                font-weight: 700;
+                margin: 3em 0 3.5em;
+        }
+
+        h2 {
+                margin: 1em 0 0;
+        }
+        
+
 
 }
 
@@ -523,6 +533,10 @@ main nav a:hover {
         color: #4E9374;
 }
 
+main nav li:nth-child(2) {
+        margin: 0 10px;
+}
+
 main > p {
         margin-bottom: 0;
 }
@@ -580,6 +594,7 @@ footer ul {
 
         main nav {
                 text-align: left;
+                
         }
 
         footer li {
