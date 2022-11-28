@@ -3,24 +3,31 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/d4362c5e6c.js" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
-<title>Home</title>
+<title>About</title>
 
 
 <body>
 
-    <header> <!--back ground hero img-->
+    <header id="bgd-img-hero-about"> <!--back ground hero img-->
         <div class="wrapper">
             <div class="row">
                 <div class="col-sm-12 col-md-2">
-                    <img src="" alt="Bedford" class="img-responsive" data-rjs="2">
+                    <a href="index.html"><img src="img/logo-bedford.png" alt="Bedford Foudation" class="img-responsive" data-rjs="2"></a>
                 </div>
                 <nav class="col-sm-12 col-md-10">
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#action">Take action</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="action.html">Take action</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,41 +37,42 @@
     </header>
 
     <main class="wrapper row">
-        <nav class="col-sm-12 col-md-6">
+        <nav class="col-sm-12 col-md-4">
+            <p><i>About</i></p>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">What we do</a></li>
-                <li><a href="#">mission</a></li>
-                <li><a href="#">achievements</a></li>
+                <li><a href="#what-we-do">What we do</a></li>
+                <li><a href="#mission">mission</a></li>
+                <li><a href="#achievements">achievements</a></li>
             </ul>
 
         </nav>
         
-        <div class="col-sm-12 col-md-6">
-            <p></p>
-            <section>
-                <h2></h2>
-                <p></p>
+        <div class="col-sm-12 col-md-8">
+            <p id="what-we-do">Since 1950, we have led the effort to permanently protect nearly 110 million acres of wilderness. We have been at the forefront of nearly every major public lands victory.</p>
+            <section id="mission">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin. Donec blandit, arcu a dapibus iaculis, velit nisi luctus libero, eu maximus ligula diam eget ante. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed quis enim nibh</p>
             </section>
             <blockquote>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p> &#8220;</p>
+                <p>Bedford has helped accomplish over 200 of its partners' major conservation goals. They inspire everyone to care for the planet.</p>
+                <p>&mdash; John Smith, Nature Conservancy Magazine </p>
             </blockquote>
-            <section>
-                <h2></h2>
+            <section id="achievements">
+                <h2>Our Achievements</h2>
                 <div class="row">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>        
+                    <ul class="col-sm-12 col-md-6">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin. Donec blandit, arcu a dapibus iaculis</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin. Donec blandit, arcu a dapibus iaculis.</li>        
                     </ul>
     
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>        
+                    <ul class="col-sm-12 col-md-6">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla/</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus. Maecenas luctus erat lobortis neque molestie, in scelerisque arcu sollicitudin.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque enim non augue fringilla, sit amet vehicula orci faucibus.
+                        </li>        
                     </ul>
 
                 </div>
@@ -80,21 +88,22 @@
         <div> <!--back ground color light green-->
              <div class="wrapper">
                  <ul>
-                     <li><span></span></li>
-                     <li><span></span></li>
-                     <li><span></span></li>
+                     <li><a href="https://www.facebook.com/"><span class="fa-brands fa-square-facebook"></span></a></li>
+                     <li><a href="https://www.instagram.com/"><span class="fa-brands fa-square-instagram"></span></a></li>
+                     <li><a href="https://twitter.com/"><span class="fa-brands fa-square-twitter"></span></a></li>
                  </ul>
              </div>
              
         </div>
         <address class="wrapper">
              <ul>
-                 <li><a></a></li>
-                 <li><a></a></li>
-                 <li><a></a></li>
+                 <li><a href="https://www.google.com/maps/place/459+Broadway,+New+York,+NY+10013/@40.7208592,-74.00315,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598bd3fc4031:0x48b829f544b1ce3f!8m2!3d40.7208592!4d-74.0009613">459 Broadway, New York</a></li>
+                 <li><a href="tel:+12125550123">(212) 555-0123</a></li>
+                 <li><a href="mailto:template@gmail.com">template@gmail.com</a></li>
              </ul>
         </address>
      </footer>
+ 
 
     
 

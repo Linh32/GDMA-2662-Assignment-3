@@ -3,57 +3,66 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/d4362c5e6c.js" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
-<title>Action</title>
+<title>Home</title>
 
 
 <body>
 
-    <header> <!--back ground hero img-->
+    <header id="bgd-img-hero-home"> <!--back ground hero img-->
         <div class="wrapper">
             <div class="row">
                 <div class="col-sm-12 col-md-2">
                     <h1>
-                        <img src="img/logo-bedford.png" alt="Bedford Foudation" class="img-responsive" data-rjs="2">
+                        <a href="#"><img src="img/logo-bedford.png" alt="Bedford Foudation" class="img-responsive" data-rjs="2"></a>
                     </h1>
                     
                 </div>
                 <nav class="col-sm-12 col-md-10">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#about.html">About</a></li>
-                        <li><a href="#action.html">Take action</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="action.html">Take action</a></li>
                     </ul>
                 </nav>
             </div>
-            <p><span>Sustainability</span> <br>starts with you </p>
-            <p>learn more</p>
+            <p><i>Sustainability</i><br><span>starts with you</span></p>
+            <p><a href="">learn more</a></p>
         </div>
 
     </header>
 
     <main class="wrapper">
             <p>We conserve land through outreach, restoration, and research.</p>
-            <div class="col-sm-12 col-md-8">
-                <p>Some of the Earth's greatest landscapes are threatened by increased road construction, oil and gas exploration, and mining. We aim to protect these areas from inappropriate development, but we cannot achieve our goals alone. Find out how you can help.</p>
+            <div class="row col-center">
+                <div class="col-sm-12 col-md-8">
+                    <p>Some of the Earth's greatest landscapes are threatened by increased road construction, oil and gas exploration, and mining. We aim to protect these areas from inappropriate development, but we cannot achieve our goals alone. Find out how you can help.</p>
+                </div>
             </div>
             <div class="row">
                 <section class="col-sm-12 col-md-5">
-                    <div></div> <!--back ground moutain img-->
+                    <div id="bgd-img-main-mountain" ></div> <!--back ground moutain img-->
                     <header>
                         <h2>About</h2>
                     </header>
                     <p>Find out about our organization, mission, our methods, and the results of our decades of advocacy.</p>
-                    <p><a>Learn More</a></p>
+                    <p><a href="about.html">Learn More</a></p>
                 </section>
                 <section class="col-sm-12 col-md-5">
-                    <div></div> <!--back ground forest img-->
+                    <div id="bgd-img-main-forest"></div> <!--back ground forest img-->
                     <header>
                        <h2>Take Action</h2>
                     </header>
                     <p>Ready to take the next step? You can become a contributor to our cause, or participate yourself.</p>
-                    <p><a>Find Out How</a></p>
+                    <p><a href="action.html">Find Out How</a></p>
                 </section>
             </div>
             
@@ -63,18 +72,18 @@
        <div> <!--back ground color light green-->
             <div class="wrapper">
                 <ul>
-                    <li><span></span></li>
-                    <li><span></span></li>
-                    <li><span></span></li>
+                    <li><a href="https://www.facebook.com/"><span class="fa-brands fa-square-facebook"></span></a></li>
+                    <li><a href="https://www.instagram.com/"><span class="fa-brands fa-square-instagram"></span></a></li>
+                    <li><a href="https://twitter.com/"><span class="fa-brands fa-square-twitter"></span></a></li>
                 </ul>
             </div>
             
        </div>
        <address class="wrapper">
             <ul>
-                <li><a>459 Broadway, New York</a></li>
-                <li><a>(212) 555-0123</a></li>
-                <li><a>template@gmail.com</a></li>
+                <li><a href="https://www.google.com/maps/place/459+Broadway,+New+York,+NY+10013/@40.7208592,-74.00315,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598bd3fc4031:0x48b829f544b1ce3f!8m2!3d40.7208592!4d-74.0009613">459 Broadway, New York</a></li>
+                <li><a href="tel:+12125550123">(212) 555-0123</a></li>
+                <li><a href="mailto:template@gmail.com">template@gmail.com</a></li>
             </ul>
        </address>
     </footer>
